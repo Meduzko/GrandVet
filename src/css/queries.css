@@ -1,0 +1,507 @@
+@media (min-width: 0px) { 
+	.slide_title-first_page {
+    	font-size: 1.8rem;
+    	letter-spacing: 1px;
+	}
+	.intro_slide1 {
+  		position: relative;
+  		top: 40%;
+	}
+	.border__image_slider {
+		display: none;
+	}
+	.border__image {
+		display: none;
+	}
+	.logo_img {
+		width: 15%;
+	}
+	.work_time_container {
+		display: none;
+	}
+	.logo_wrapper {
+		display: none;
+	}
+	.logo_wrapper ul li p  {
+		font-weight: 900;
+	}
+	.main_title {
+		font-size: 2rem;
+	}
+	.main_title span {
+		font-size: 2rem;
+	}
+	.desktop_nav {
+		display: none;
+	}
+	.mobile_nav {
+		display: block;
+	    height: 0px;
+	    position: absolute;
+	}
+	.card .card-title {
+	    font-size: .5rem;
+    	line-height: 6px;
+    	padding-bottom: .5rem;
+    	padding-top: .5rem;
+	}
+	.card .card-content {
+		padding: 3px;
+	}
+
+	.button_wrapper {
+		height: auto;
+		width: 60px;
+	}
+	.action_button_wrapper {
+		font-size: 0.5rem;
+	}
+	.action_reveal_button_wrapper {
+		height: auto;
+		width: 60px;
+	}
+	.action_reveal_button {
+		font-size: 0.4rem;
+	}
+	.card_revealed_side_text {
+		padding: 3px;
+    	font-size: .4rem;
+	}
+	.service_card_content {
+		font-size: .4rem;
+	    height: auto;
+	    padding: 0px;
+	}
+	.aritcle-card-title {
+		font-size: .4rem;
+	    top: 0;
+	    left: 0;
+	    padding: 4px;
+	}
+	.aritcle-under_card-title {
+		font-size: .4rem;
+	}
+	.testimonials_container {
+		text-align: center;
+	}
+	.swiper-pagination {
+		width: 50%;
+	}
+	.partners_logo img {
+	    height: auto;
+	    width: 80%;
+	}
+	.contact_form_attach_button_container {
+	    left: 0;
+	    right: 0;
+	    bottom: 75px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.contact_form_send_button_container {
+		width: 100%;
+	    left: 0;
+	    right: 0;
+	    bottom: 0px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    position: absolute;
+	}
+	.contact_form__button {
+		left: 0;
+	    right: 0;
+	    margin-left: auto;
+	    margin-right: auto;
+	    position: absolute;
+	}
+
+}
+@media (min-width: 576px) {
+	.slide_title-first_page {
+    	font-size: 2rem;
+	}
+	.main_title {
+		font-size: 2rem;
+	}
+	.main_title span {
+		font-size: 2rem;
+	}
+	.card .card-title {
+		font-size: .8rem;
+    	line-height: 17px;
+	}
+	.card .card-content {
+		padding: 0 20px;
+	}
+	.swiper-service_container {
+	    height: 65%;
+	}
+	.aritcle-card-title {
+		font-size: .7rem;
+	}
+	.aritcle-under_card-title {
+		font-size: .7rem;
+	}
+	.partners_logo img {
+	    height: auto;
+	    width: 80%;
+	}
+	.intro_slide1 {
+  		position: relative;
+  		top: 35%;
+	}
+
+}
+
+@media (min-width: 768px)  {
+
+	.intro_slide1 {
+  		position: relative;
+  		top: 35%;
+	}
+	.logo_wrapper {
+	    right: 10%;
+	    left: auto;
+	    display: block;
+	}
+	nav a.sidenav-trigger {
+    	left: 5%;
+	}
+	.slide_title-first_page {
+    	font-size: 3rem;
+	}
+	.logo_img {
+    	width: 15%;
+	}
+	.main_title {
+		font-size: 2.5rem;
+	}
+	.main_title span {
+		font-size: 2.5rem;
+	}
+	.desktop_nav {
+		display: block;
+	}
+	.mobile_nav {
+		display: none;
+	}
+	.why_grandvet_title {
+    	font-size: .9rem;
+	}
+	.why_us_reveal_title {
+		font-size: .9rem;
+	}
+	.card .card-title {
+		font-size: 1rem;
+      	line-height: 22px;
+    	padding-bottom: 1rem;
+	}
+	.card .card-content {
+		padding: 20px;
+	}
+	.swiper-service_container {
+	    height: 65%;
+	}
+	.aritcle-card-title {
+		font-size: .9rem;
+	}
+	.aritcle-under_card-title {
+		font-size: .9rem;
+	}
+	.service_card-title_revaled_side {
+    	padding-bottom: 1rem !important;
+	}
+	.contact_form_attach_button_container {
+	    left: 20px;
+	    right: auto;
+	    bottom: 50px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.contact_form_send_button_container {
+	    width: 100%;
+	    left: auto;
+	    right: 20px;
+	    bottom: 80px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    position: absolute;
+	}
+	.contact_form__button {
+	    left: auto;
+	    right: 0;
+	    margin-left: auto;
+	    margin-right: auto;
+	    position: absolute;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.social_networks {
+  		position: absolute;
+  		bottom: 0.5%;
+  		right: 2.5%;
+  		z-index: 2;
+	}
+
+	.intro_slide1 {
+  		position: relative;
+  		top: 70%;
+	}
+	.navmenu_right_side {
+		width: 57%;
+	}
+	nav ul a {
+		font-size: 12px;
+	}
+	.logo_img {
+		width: 50%;
+	}
+	.work_time_container {
+		display: block;
+	}
+	.logo_wrapper {
+		left: 160px;
+	}
+	.logo_wrapper ul li p {
+		font-size: .7rem;
+	}
+	.slide_title-first_page {
+    	font-size: 3.2rem;
+    	letter-spacing: 4px;
+	}
+	.border__image_slider {
+		display: block;
+	}
+	.border__image {
+		display: block;
+	}
+	.main_title {
+		font-size: 2.5rem;
+	}
+	.main_title span {
+		font-size: 2.5rem;
+	}
+	.button_wrapper {
+		height: 40px;
+    	width: 105px;
+	}
+	.action_button_wrapper {
+ 	   font-size: 0.7rem;
+	}
+	.action_reveal_button_wrapper {
+		height: 40px;
+    	width: 105px;
+	}
+	.action_reveal_button {
+ 	   font-size: 0.7rem;
+	}
+	.card_revealed_side_text {
+		font-size: 0.7rem;
+		padding: 10px 10px;
+	}
+	.swiper-service_container {
+		height: 65%;
+	}
+	.testimonials_container {
+		text-align: left;
+	}
+	.swiper-pagination {
+		width: 35%;
+	}
+	.work_time {
+	    width: 62%;
+	}
+	.work_time p {
+    	font-size: .69rem;
+	}
+	.why_grandvet_title {
+    	font-size: .9rem;
+    	height: 100%;
+	}
+	.card .card-title {
+		font-size: 24px;
+    	line-height: 28px;
+    	padding-bottom: 4rem;
+	}
+	.service_card-title_revaled_side {
+    	padding-bottom: 1rem !important;
+    	font-size: 22px !important;
+    	padding: 0 8px;
+	}
+	.service_card_content {
+		font-size: .7rem;
+	}
+	.contact_form_wrapper {
+	
+	}
+	.contact_form_form {
+    	width: 350px !important;
+	}
+	#map {
+		height: 386px;
+		width: 350px;
+	}
+	.for_size {
+	  margin: 0;
+	  width: 100%;
+	  height: 100%;
+	}
+
+}
+
+@media (min-width: 1280px) {
+
+	.intro_slide1 {
+  		position: relative;
+  		top: 70%;
+	}
+
+	.social_networks {
+  		position: absolute;
+  		bottom: 1%;
+  		right: 4%;
+  		z-index: 2;
+	}
+	.navmenu_right_side {
+		width: 57%;
+	}
+	nav ul a {
+		font-size: 16px;
+	}
+	.logo_wrapper {
+		left: 160px;
+	}
+	.logo_wrapper ul li p {
+		font-size: .7rem;
+	}
+	.logo_wrapper {
+		left: 200px;
+	}
+	.slide_title-first_page {
+    	font-size: 4rem;
+    	letter-spacing: 4px;
+	}
+	.main_title {
+		font-size: 3rem;
+	}
+	.main_title span {
+		font-size: 3rem;
+	}
+	.card .card-title {
+		font-size: 24px;
+    	padding-bottom: 2rem;
+	}
+	.work_time {
+		width: 55%;
+		position: relative;
+		right:50px;
+	}
+	.work_time p {
+		font-size: 12px;
+	}
+
+	.swiper-pagination {
+		padding-top: 30px;
+	}
+	.service_card-title_revaled_side {
+    	padding-bottom: 1rem !important;
+	}
+	.service_card_content {
+		font-size: .8rem;
+	}
+	.contact_form__main-container {
+    	width: 55%;
+	}
+	.equipment_card_title {
+		height: 39px;
+	}
+	.contact_form_wrapper {
+
+	}
+	#map {
+		height: 386px;
+		width: 350px;
+	}
+
+}
+
+@media (min-width: 1500px) {
+	.intro_slide1 {
+  		position: relative;
+  		top: 70%;
+	}
+	.social_networks {
+  		position: absolute;
+  		bottom: 3%;
+  		right: 3.6%;
+  		z-index: 2;
+}
+	.socail_icon {
+		height: auto;
+		width: 45%;
+		padding: 0px 15px;
+	}
+	.navmenu_right_side {
+		width: 55%;
+	}
+	nav ul a {
+		font-size: 20px;
+	}
+	.logo_wrapper {
+		left: 160px;
+	}
+	.logo_wrapper ul li p {
+		font-size: .7rem;
+	}
+	.logo_wrapper {
+		left: 200px;
+	}
+	.slide_title-first_page {
+    	font-size: 5rem;
+    	letter-spacing: 4px;
+	}
+	.main_title {
+		font-size: 50px;
+	}
+	.main_title span {
+		font-size: 50px;
+	}
+	.card .card-title {
+		font-size: 24px;
+    	padding-bottom: 2rem;
+	}
+	.work_time {
+		width: 75%;
+		position: relative;
+		right:0px;
+	}
+	.work_time p {
+		font-size: 20px;
+	}
+	.swiper-pagination {
+		padding-top: 30px;
+	}
+	.service_card-title_revaled_side {
+    	padding-bottom: 1rem !important;
+	}
+	.service_card_content {
+		font-size: .8rem;
+	}
+	.contact_form__main-container {
+    	width: 55%;
+	}
+	.equipment_card_title {
+		height: 40px;
+	}
+	.contact_form_wrapper {
+
+	}
+	#map {
+		height: 386px;
+		width: 350px;
+	}
+
+}

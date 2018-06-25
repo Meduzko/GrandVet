@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Grand Vet</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--<link rel="stylesheet" type="text/css" href="src/vendor/jquery.fullPage.css" />-->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="src/vendor/materialize.css" />
+	<link rel="stylesheet" type="text/css" href="src/vendor/examples.css" />
+	<link rel="stylesheet" type="text/css" href="src/vendor/swiper.css" />
+	<!--<link rel="stylesheet" type="text/css" href="src/vendor/owl.carousel.css" />
+		<link rel="stylesheet" type="text/css" href="src/vendor/owl.theme.default.css" />-->
+		<link rel="stylesheet" type="text/css" href="src/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="src/css/queries.css" />
+		<link rel="stylesheet" type="text/css" href="src/css/search.css" />
+		<!--<link rel="stylesheet" href="src/vendor/tipuesearch/tipuesearch.css">-->
+
+
+		<!--<link rel="stylesheet" type="text/css" href="src/css/simpleFlex.css" />-->
+	</head>
+	<body>
+		<!--
+		<div class="logo_wrapper">
+			<ul>
+				<li>
+					<a href=""><img class="logo_img" src="src/img/logo.png"></a>
+				</li>
+				<li class="work_time">
+					<p>работаем 24/7 • 044 430 30 21 • 050 710 50 19</p>
+				</li>
+			</ul>
+		</div>
+
+		<div class="nav" id="navMenu">
+			<ul>
+				<li class="home"><a href="#">о нас</a></li>
+				<li class="tutorials"><a class="" href="#">услуги</a></li>
+				<li class="about"><a href="#">зоомагазин</a></li>
+				<li class="news"><a href="#">зоогостинница</a></li>
+				<li class="contact"><a href="#">ищут дом</a></li>
+				<li class="contact"><a href="#">контакты</a></li>
+				<li class="contact"><a href="#">поиск</a></li>
+			</ul>
+		</div>
+	-->
+
+
+<!--
+	<div class="logo_wrapper">
+		<ul>
+			<li class="work_time">
+				<p>работаем 24/7 • 044 430 30 21 • 050 710 50 19</p>
+			</li>
+		</ul>
+	</div>
+-->
+<div class="navbar-fixed desktop_nav">
+	<nav>
+		<div class="nav-wrapper">
+			<a href="#" class="brand-logo">
+				<img class="logo_img" src="src/img/logo.png">
+			</a>
+			<div class="work_time_container">
+				<div class="work_time">
+					<p>работаем 24/7 <span> • 044 430 30 21 • 050 710 50 19</span></p>
+				</div>
+			</div>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down navmenu_right_side">
+				<li><a href="">о нас</a></li>
+				<li><a href="">услуги</a></li>
+				<li><a href="">зоомагазин</a></li>
+				<li><a href="">зоогостинница</a></li>
+				<li><a href="">ищут дом</a></li>
+				<li><a href="">контакты</a></li>
+				<li class="searchContainer">
+							<!--<button type="submit" class="tipue_search_button" id="searchButton"></button>-->
+							<!--<div class="tipue_search_icon">&#9906;</div>-->
+					<i class="material-icons" id="searchIcon">search</i>
+				
+				</li>
+<!--					<li>
+						<form class="tipue_form">
+<div class="tipue_search_group">
+<input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required><button type="submit" class="tipue_search_button"><div class="tipue_search_icon">&#9906;</div></button>
+</div>
+</form>
+					</li> -->
+				</ul>
+
+				<div class="search_li" id="searchSection">
+					<!--<form></form>-->
+					<div class="tipue_search_group">
+						<input type="text" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required>
+						<button type="submit" class="tipue_search_button" id="searchButton">
+							<!--<div class="tipue_search_icon">&#9906;</div>-->
+							<div class="tipue_search_icon">Поиск</div>
+						</button>
+						<!-- onclick="location.href='search.html'" -->
+					</div>
+				</div>
+
+			</div>
+		</nav>
+	</div>
+	<!--<img class="border_img" src="src/img/border.png">-->
+	<nav class="mobile_nav">
+		<div class="nav-wrapper">
+			<a href="#" class="brand-logo">
+				<img class="logo_img" src="src/img/logo.png">
+			</a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
+
+
+	<ul class="sidenav" id="mobile-demo">
+		<li><a href="">о нас</a></li>
+		<li><a href="">услуги</a></li>
+		<li><a href="">зоомагазин</a></li>
+		<li><a href="">зоогостинница</a></li>
+		<li><a href="">ищут дом</a></li>
+		<li><a href="">контакты</a></li>
+	</ul>
+
+
+	<div id="fullpage">
+
+
+		<div class="section fp-auto-height-responsive" id="section0">
+
+			<div id="tipue_search_content"></div>
+
+			<img class="border__image_slider" src="src/img/border.png">
+			<div class="social_networks">
+				<img class="socail_icon fb_icon" src="src/img/fb_icon.png">
+				<img class="socail_icon vk_icon" src="src/img/vk_icon.png">
+			</div>
+
+			<div class="slide" id="slide1">
+				<div class="intro intro_slide1">
+					<h2 class="slide_title-first_page">Круглосуточный <br> прием в клинике</h2>
+				</div>
+
+			</div>
+			<div class="slide" id="slide2">
+				<h1>Slide 2</h1>
+			</div>
+
+<!--
+		<div class="swiper-container swiper-section0">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" data-title="1" id="slide1">
+						<div class="intro intro_slide1">
+					<h2 class="slide_title-first_page">Круглосуточный <br> прием в клинике</h2>
+				</div>
+				</div>
+				<div class="swiper-slide" data-title="2" id="slide1">
+							<div class="intro intro_slide1">
+					<h2 class="slide_title-first_page">Круглосуточный <br> прием в клинике</h2>
+				</div>
+				</div>
+
+
+			</div>
+					 Add Pagination 
+			<div class="swiper-pagination section0_pagination"></div>
+		</div>
+
+-->
+
+		</div> <!-- section0 end-->
+
+		<div class="section" id="section1">
+			<img class="border__image" src="src/img/border.png">
+			<div class="social_networks">
+				<img class="socail_icon fb_icon" src="src/img/fb_icon.png">
+				<img class="socail_icon vk_icon" src="src/img/vk_icon.png">
+			</div>
+			<div class="top__border"></div>
+			<div class="left__border"></div>
+			<div class="bottom__border"></div>
+			<div class="right__border"></div>
+			<h2 class="main_title">Почему <span>+</span>гранд-вет</h2>
+			<div class="container why_grandvet_container">
+
+
+
+
+
+
+			<div class="swiper-container swiper-why_grandvet_container">
+				<div class="swiper-wrapper service_swiper-wrapper">
+
+					<div class="swiper-slide">
+
+						<div class="card for_size">
+							<div class="card-image waves-effect waves-block waves-light why_grandvet_card-image">
+								<img class="activator" src="src/img/card_img1.jpg">
+							</div>
+							<div class="card-content why_grandvet-card-content">
+								<span class="card-title white-text text-darken-4 why_grandvet_title">Cпециалисты и <br> современное <br> оборудование</span>
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Подробнее</a></p>
+								</div>
+
+							</div>
+							<div class="card-reveal service_card-reveal" id="card-reveal">
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side why_us_reveal_title">Cпециалисты и современное оборудование</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">Только наши специалисты, располагающие уникальным современным оборудованием и владеющие необходимыми навыками, способны грамотно продиагностировать любое заболевание, установить корректно диагноз, назначить своевременный адекватный курс лечения и вернуть радость здоровой жизни пациенту.</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel opened_card" id="reveal-activator">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+
+						<div class="card for_size">
+							<div class="card-image waves-effect waves-block waves-light why_grandvet_card-image">
+								<img class="activator" src="src/img/card_img2.jpg">
+							</div>
+							<div class="card-content why_grandvet-card-content">
+								<span class="card-title white-text text-darken-4 why_grandvet_title">Лечение <br> экзотических <br> животных</span>
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Подробнее</a></p>
+								</div>
+
+							</div>
+							<div class="card-reveal service_card-reveal" id="card-reveal2">
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side why_us_reveal_title">Лечение экзотических животных</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">На базе богатого собранного опыта навыков и знаний наши специалисты способны оказать всестороннюю консультацию, диагностику и лечение экзотических животных. Все необходимые профилактические, диагностические, хирургические и терапевтические мероприятия ветцентр «+ГРАНД-ВЕТ» имеет возможность проводить в условиях стационарного содержания, соблюдая видовые особенности экзотических животных от беспозвоночных до пернатых.</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel" id="reveal-activator2">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+
+						<div class="card for_size">
+							<div class="card-image waves-effect waves-block waves-light why_grandvet_card-image">
+								<img class="activator" src="src/img/card_img3.jpg">
+							</div>
+							<div class="card-content why_grandvet-card-content">
+								<span class="card-title white-text text-darken-4 why_grandvet_title">Cодержание и <br> лечения <br> животных</span>
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Подробнее</a></p>
+								</div>
+
+							</div>
+							<div class="card-reveal service_card-reveal" id="card-reveal3">
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side why_us_reveal_title">Содержание и лечение животных</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">Ветцентр «+ГРАНД-ВЕТ» располагает просторными и специализированными помещениями для размещения, содержания и лечения животных. Отдельно подготовленный персонал тепло и заботливо отнесется к вашим питомцам, находящихся в зоогостинице или же в отделениях реабилитации. Индивидуальный подход к каждому животному, обеспечивает теплое и комфортное пребывание для всех видов животных и рыб.</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel" id="reveal-activator3">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>
+							</div>
+						</div>
+					</div>
+
+					
+				</div>
+				<!-- Add Pagination -->
+
+			</div>
+
+
+
+
+
+<!--
+				<div class="row">
+					<div class="col s4">
+						<div class="card for_size">
+							<div class="card-image waves-effect waves-block waves-light why_grandvet_card-image">
+								<img class="activator" src="src/img/card_img1.jpg">
+							</div>
+							<div class="card-content why_grandvet-card-content">
+								<span class="card-title white-text text-darken-4 why_grandvet_title">Cпециалисты и <br> современное <br> оборудование</span>
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Подробнее</a></p>
+								</div>
+
+							</div>
+							<div class="card-reveal service_card-reveal" id="card-reveal">
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side why_us_reveal_title">Cпециалисты и современное оборудование</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">Только наши специалисты, располагающие уникальным современным оборудованием и владеющие необходимыми навыками, способны грамотно продиагностировать любое заболевание, установить корректно диагноз, назначить своевременный адекватный курс лечения и вернуть радость здоровой жизни пациенту.</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel opened_card" id="reveal-activator">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col s4">
+						<div class="card for_size">
+							<div class="card-image waves-effect waves-block waves-light why_grandvet_card-image">
+								<img class="activator" src="src/img/card_img2.jpg">
+							</div>
+							<div class="card-content why_grandvet-card-content">
+								<span class="card-title white-text text-darken-4 why_grandvet_title">Лечение <br> экзотических <br> животных</span>
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Подробнее</a></p>
+								</div>
+
+							</div>
+							<div class="card-reveal service_card-reveal" id="card-reveal2">
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side why_us_reveal_title">Лечение экзотических животных</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">На базе богатого собранного опыта навыков и знаний наши специалисты способны оказать всестороннюю консультацию, диагностику и лечение экзотических животных. Все необходимые профилактические, диагностические, хирургические и терапевтические мероприятия ветцентр «+ГРАНД-ВЕТ» имеет возможность проводить в условиях стационарного содержания, соблюдая видовые особенности экзотических животных от беспозвоночных до пернатых.</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel" id="reveal-activator2">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col s4">
+						<div class="card for_size">
+							<div class="card-image waves-effect waves-block waves-light why_grandvet_card-image">
+								<img class="activator" src="src/img/card_img3.jpg">
+							</div>
+							<div class="card-content why_grandvet-card-content">
+								<span class="card-title white-text text-darken-4 why_grandvet_title">Cодержание и <br> лечения <br> животных</span>
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Подробнее</a></p>
+								</div>
+
+							</div>
+							<div class="card-reveal service_card-reveal" id="card-reveal3">
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side why_us_reveal_title">Содержание и лечение животных</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">Ветцентр «+ГРАНД-ВЕТ» располагает просторными и специализированными помещениями для размещения, содержания и лечения животных. Отдельно подготовленный персонал тепло и заботливо отнесется к вашим питомцам, находящихся в зоогостинице или же в отделениях реабилитации. Индивидуальный подход к каждому животному, обеспечивает теплое и комфортное пребывание для всех видов животных и рыб.</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel" id="reveal-activator3">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			-->
+			</div>
+
+		</div>
+		<div class="section fp-auto-height-responsive" id="section2">
+
+			<img class="border__image" src="src/img/border.png">
+			<div class="social_networks">
+				<img class="socail_icon fb_icon" src="src/img/fb_icon.png">
+				<img class="socail_icon vk_icon" src="src/img/vk_icon.png">
+			</div>
+			<h2 class="main_title">Услуги <span>+</span>гранд-вет</h2>
+			<div class="swiper-container swiper-service_container">
+				<div class="swiper-wrapper service_swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="card service_card">
+							<div class="card-image waves-effect waves-block waves-light service_card_img">
+								<img class="activator" src="src/img/services_img1.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title white-text text-darken-4 service_card_title">ДИАГНОСТИКА</span>
+								<p class="service_card_content">Кто правильно диагностирует- тот правильно лечит.</p>
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Подробнее</a></p>
+								</div>
+							</div>
+							<div class="card-reveal service_card-reveal"><br>
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side">ДИАГНОСТИКА</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">Диагностический кабинет ветцентра &quot;+ГРАНД-ВЕТ&quot; оснащен самым современным оборудованием, на базе которого проводится полная всесторонняя диагностика организма и систем для точной постановки диагноза. При необходимости, наши специалисты приедут на дом к пациенту и проведут диагностику в домашних
+								условиях.</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel opened_card" id="reveal-activator">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="card service_card">
+							<div class="card-image waves-effect waves-block waves-light service_card_img">
+								<img class="activator" src="src/img/therapia.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title white-text text-darken-4 service_card_title">ТЕРАПИЯ</span>
+								<p class="service_card_content">Владение фармакологией на базе диагностики- гарантия правильного лечения.</p>
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Подробнее</a></p>
+								</div>
+							</div>
+							<div class="card-reveal service_card-reveal"><br>
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side">ТЕРАПИЯ</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">Широкопрофильные и узконаправленные специалисты ветцентра «+ГРАНД-ВЕТ» окажут экстренное профессиональное квалифицированное лечение разной степени сложности в любое время суток.</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel opened_card" id="reveal-activator">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="card service_card">
+							<div class="card-image waves-effect waves-block waves-light service_card_img">
+								<img class="activator" src="src/img/services_img3.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title white-text text-darken-4 service_card_title">ХИРУРГИЯ</span>
+								<p class="service_card_content">Опытный хирург+современное оборудование=больше спасенных жизней.</p>
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Подробнее</a></p>
+								</div>
+							</div>
+							<div class="card-reveal service_card-reveal"><br>
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side">ХИРУРГИЯ</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">На базе современного оборудования ветцентра &quot;+ГРАНД-ВЕТ&quot; хирурги проводят сложнейшие операции на высоком профессиональном уровне, тем самым оказывают стопроцентно эффективную хирургическую помощь животным.</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel opened_card" id="reveal-activator">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="card service_card">
+							<div class="card-image waves-effect waves-block waves-light service_card_img">
+								<img class="activator" src="src/img/services/stacionar.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title white-text text-darken-4 service_card_title">СТАЦИОНАР</span>
+								<p class="service_card_content">Ветцентр «+ГРАНД-ВЕТ»- здоровье вашего питомца гарант.</p>
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Подробнее</a></p>
+								</div>
+							</div>
+							<div class="card-reveal service_card-reveal"><br>
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side">СТАЦИОНАР</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">Ветцентр +ГРАНД-ВЕТ располагает отделением интенсивной терапии и круглосуточным мониторингом и лечением животных, за которыми необходим постоянный контроль и уход.</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel opened_card" id="reveal-activator">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="card service_card">
+							<div class="card-image waves-effect waves-block waves-light service_card_img">
+								<img class="activator" src="src/img/firstaid.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title white-text text-darken-4 service_card_title">СКОРАЯ ПОМОЩЬ</span>
+								<p class="service_card_content">Пришел, увидел, вылечил</p>
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Подробнее</a></p>
+								</div>
+							</div>
+							<div class="card-reveal service_card-reveal"><br>
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side">СКОРАЯ ПОМОЩЬ</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">Специалисты ветцентра «+ГРАНД-ВЕТ» в любое время готовы приехать и оказать квалифицированную помощь вашему питомцу. При необходимости ургентной помощи - животное будет доставлено в ветцентр.</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel opened_card" id="reveal-activator">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="card service_card">
+							<div class="card-image waves-effect waves-block waves-light service_card_img">
+								<img class="activator" src="src/img/services/zoohotel.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title white-text text-darken-4 service_card_title">ЗООГОСТИНИЦА</span>
+								<p class="service_card_content">Когда занят- доверь питомца нам</p>
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Подробнее</a></p>
+								</div>
+							</div>
+							<div class="card-reveal service_card-reveal"><br>
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side">ЗООГОСТИНИЦА</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">Часто случается так, что вам нужно уехать на несколько дней или по любой другой причине, вы не можете временно ухаживать за домашним любимцем - ветцент &quot;+ГРАНД-ВЕТ&quot; обеспечит комфортное содержание и домашний уход за вашим питомцем.</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel opened_card" id="reveal-activator">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>
+							</div>
+						</div>
+					</div>
+
+					
+				</div>
+				<!-- Add Pagination -->
+
+			</div>
+			<div class="swiper-pagination"></div>
+
+
+		</div>
+
+		<div class="section fp-auto-height-responsive" id="section3">
+
+			<img class="border__image" src="src/img/border.png">
+			<div class="social_networks">
+				<img class="socail_icon fb_icon" src="src/img/fb_icon.png">
+				<img class="socail_icon vk_icon" src="src/img/vk_icon.png">
+			</div>
+			<h2 class="main_title">Оборудование</h2>
+
+			<div class="swiper-container swiper-service_container">
+				<div class="swiper-wrapper service_swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="card service_card">
+							<div class="card-image waves-effect waves-block waves-light equipment_image">
+								<img class="" src="src/img/equipment/rentgen2.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title white-text text-darken-4 equipment_card_title">РЕНТГЕН</span>
+								<p class="service_card_content">Уникальный высокопроизводительный аппарат- минимум облучения, максимум качество</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="card service_card">
+							<div class="card-image waves-effect waves-block waves-light equipment_image">
+								<img class="" src="src/img/equipment/uzd3.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title white-text text-darken-4 equipment_card_title">УЗД</span>
+								<p class="service_card_content">Непревзойденная точность и видимость</p>
+							</div>
+						</div>
+					</div>
+
+
+
+					<div class="swiper-slide">
+						<div class="card service_card">
+							<div class="card-image waves-effect waves-block waves-light equipment_image">
+								<img class="" src="src/img/equipment/narcos.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title white-text text-darken-4 equipment_card_title"> ИНГАЛЯЦИОННЫЙ НАРКОЗ </span>
+								<p class="service_card_content">Только у нас! Самый щадящий наркоз</p>
+								<!--
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Подробнее</a></p>
+								</div>
+							</div>
+							<div class="card-reveal service_card-reveal">
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side">ИНГАЛЯЦИОННІЙ НАРКОЗ</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">Только у нас! Самый щадящий наркоз</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel opened_card" id="reveal-activator">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>-->
+							</div>
+						</div>
+					</div>
+			<!--
+				<div class="swiper-slide">
+					<div class="card service_card">
+						<div class="card-image waves-effect waves-block waves-light equipment_image">
+							<img class="" src="src/img/equipment/narcosis.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title white-text text-darken-4 equipment_card_title">ИНГАЛЯЦИОННІЙ НАРКОЗ</span>
+							<p class="service_card_content">Только у нас! Самый щадящий наркоз</p>
+						</div>
+					</div>
+				</div>
+			-->
+			<div class="swiper-slide">
+				<div class="card service_card">
+					<div class="card-image waves-effect waves-block waves-light equipment_image">
+						<img class="" src="src/img/equipment/cardiomonitor.jpg">
+					</div>
+					<div class="card-content">
+						<span class="card-title white-text text-darken-4 equipment_card_title">КАРДИОМОНИТОР</span>
+						<p class="service_card_content">Ультра точный современный кардиомонитор</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="card service_card">
+					<div class="card-image waves-effect waves-block waves-light equipment_image">
+						<img class="" src="src/img/equipment/echo2.jpg">
+					</div>
+					<div class="card-content">
+						<span class="card-title white-text text-darken-4 equipment_card_title">ЭХО, ЭКГ</span>
+						<p class="service_card_content">ЭХО сердца с доплерометрией</p>
+					</div>
+				</div>
+			</div>
+			<!--
+				<div class="swiper-slide">
+					<div class="card service_card">
+						<div class="card-image waves-effect waves-block waves-light equipment_image">
+							<img class="" src="src/img/equipment/cosmetic.jpg">
+						</div>
+						<div class="card-content">
+							<span class="card-title white-text text-darken-4 equipment_card_title">КОСМЕТИЧЕСКАЯ ХИРУРГИЯ</span>
+							<p class="service_card_content">Единственная в Киеве косметическая хирургия - биполярный коагулятор, фульгулятор, наноскальпель.</p>
+						</div>
+					</div>
+				</div>
+			--><div class="swiper-slide">
+						<div class="card service_card">
+							<div class="card-image waves-effect waves-block waves-light equipment_image">
+								<img class="" src="src/img/services/cosmeticHirurgia.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title white-text text-darken-4 equipment_card_title">КОСМЕТИЧЕСКАЯ ХИРУРГИЯ</span>
+								<p class="service_card_content">Единственная в Киеве косметическая хирургия - биополярный коагулятор, фульгулятор, наноскальпель</p><!--
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">
+										Подробнее</a></p>
+								</div>
+							</div>
+							<div class="card-reveal service_card-reveal">
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side">КОСМЕТИЧЕСКАЯ ХИРУРГИЯ</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">Единственная в Киеве косметическая хирургия - биополярный коагулятор, фульгулятор, наноскальпель</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel opened_card" id="reveal-activator">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>-->
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+				<div class="card service_card">
+					<div class="card-image waves-effect waves-block waves-light equipment_image">
+						<img class="" src="src/img/equipment/ivl3.jpg">
+					</div>
+					<div class="card-content">
+						<span class="card-title white-text text-darken-4 equipment_card_title">ИВЛ АППАРАТ</span>
+						<p class="service_card_content">Жизненно важный ИВЛ аппарат временно заменит дыхание пациента.</p>
+					</div>
+				</div>
+			</div>
+
+					<div class="swiper-slide">
+						<div class="card service_card">
+							<div class="card-image waves-effect waves-block waves-light equipment_image">
+								<img class="" src="src/img/services/ipAnastezia.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title white-text text-darken-4 equipment_card_title">ЭПИДУРАЛЬНАЯ АНЕСТЕЗИЯ</span>
+								<p class="service_card_content">Эпидуральная анестезия- современная анестезия без общего наркоза.</p><!--
+								<div class="why_grandvet_button_row button_wrapper">
+									<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Подробнее</a></p>
+								</div>
+							</div>
+							<div class="card-reveal service_card-reveal">
+								<span class="card-title card-title_revaled_side grey-text text-darken-4 service_card-title_revaled_side">Эпидуральная анестезия</span>
+								<p class="card_revealed_side_text service_card-card_revealed_side_text">Эпидуральная анестезия- современная анестезия без общего наркоза.</p>
+								<div class="action_reveal_button_wrapper">
+									<p class="action_reveal_button why_grandvet_button_reavel opened_card" id="reveal-activator">
+										<a class="reveal-activator" href="#">Обратно</a>
+									</p>	
+								</div>-->
+							</div>
+						</div>
+					</div>
+			
+			<!--
+			<div class="swiper-slide">
+				<div class="card service_card">
+					<div class="card-image waves-effect waves-block waves-light equipment_image">
+						<img class="" src="src/img/equipment/anestesia.jpg">
+					</div>
+					<div class="card-content">
+						<span class="card-title white-text text-darken-4 equipment_card_title">ЭПИДУРАЛЬНАЯ АНЕСТЕЗИЯ</span>
+						<p class="service_card_content">Эпидуральная анестезия- современная анестезия без общего наркоза.</p>
+					</div>
+				</div>
+			</div>
+		-->
+	</div>
+	<!-- Add Pagination -->
+
+</div>
+<div class="swiper-pagination"></div>
+
+
+<!--
+			<div class="swiper-container swiper-container_devices">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide devices_slide">
+						<div class="col s4">
+							<div class="card device_card">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="src/img/slide1.png">
+								</div>
+								<div class="card-content devices_content">
+									<span class="card-title white-text text-darken-4 devices_title">Рентген</span>
+									<div class="devices_text">Уникальный высокопроизво - дительный аппарат — минимум облучения, максимум качество.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide devices_slide">
+						<div class="col s4">
+							<div class="card device_card">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="src/img/slide1.png">
+								</div>
+								<div class="card-content devices_content">
+									<span class="card-title white-text text-darken-4 devices_title">Узд</span>
+									<div class="devices_text">Непревзойденная точность и видимость.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide devices_slide">
+						<div class="col s4">
+							<div class="card device_card">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="src/img/slide1.png">
+								</div>
+								<div class="card-content devices_content">
+									<span class="card-title white-text text-darken-4 devices_title">Ингаляционный <br> наркоз</span>
+									<div class="devices_text">Только у нас! Самый щадящий наркоз.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide devices_slide">
+						<div class="col s4">
+							<div class="card device_card">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" src="src/img/slide1.png">
+								</div>
+								<div class="card-content devices_content">
+									<span class="card-title white-text text-darken-4 devices_title">Кардиомонитор</span>
+									<div class="devices_text">Ультра точный современный кардиомонитор</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">Slide 5</div>
+					<div class="swiper-slide">Slide 6</div>
+					<div class="swiper-slide">Slide 7</div>
+					<div class="swiper-slide">Slide 8</div>
+					<div class="swiper-slide">Slide 9</div>
+					<div class="swiper-slide">Slide 10</div>
+				</div>
+	
+
+			</div>
+			<div class="swiper-pagination"></div>
+
+		-->
+
+	</div>
+	<div class="section fp-auto-height-responsive" id="section4">
+
+		<img class="border__image" src="src/img/border.png">
+		<div class="social_networks">
+			<img class="socail_icon fb_icon" src="src/img/fb_icon.png">
+			<img class="socail_icon vk_icon" src="src/img/vk_icon.png">
+		</div>
+		<h2 class="main_title">Статьи</h2>
+		<div class="container article-container">
+			<div class="row">
+				<div class="col s4">
+					<div class="card aritcle-card">
+						<div class="card-image waves-effect waves-block waves-light aritcle-card-image">
+							<img class="activator" src="src/img/slide1.png">
+							<div class="aritcle-under_card-title">ЗАВОРОТ ЖЕЛУДКА У СОБАК</div>
+							<div class="why_grandvet_button_row button_wrapper">
+								<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Читать</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="card aritcle-under_card">
+						<div class="aritcle-under_card-title">Профилактика заболеваний животных</div>
+						<div class="why_grandvet_button_row button_wrapper">
+							<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Читать</a></p>
+						</div>
+
+					</div>
+				</div>
+				<div class="col s4">
+					<div class="card aritcle-card">
+						<div class="card-image waves-effect waves-block waves-light aritcle-card-image">
+							<img class="activator" src="src/img/slide1.png">
+							<div class="aritcle-under_card-title">БАБЕЗИОЗ (ПИРОПЛАЗМОЗ)</div>
+							<div class="why_grandvet_button_row button_wrapper">
+								<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Читать</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="card aritcle-under_card">
+						<div class="aritcle-under_card-title">Уход за животным до и после операции</div>
+						<div class="why_grandvet_button_row button_wrapper">
+							<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Читать</a></p>
+						</div>
+
+					</div>
+				</div>
+				<div class="col s4">
+					<div class="card aritcle-card">
+						<div class="card-image waves-effect waves-block waves-light aritcle-card-image">
+							<img class="activator" src="src/img/slide1.png">
+							<div class="aritcle-under_card-title">ПРАВИЛЬНОЕ ПИТАНИЕ КОШЕК И СОБАК</div>
+							<div class="why_grandvet_button_row button_wrapper">
+								<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Читать</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="card aritcle-under_card">
+						<div class="aritcle-under_card-title">Калицивироз у кошек</div>
+						<div class="why_grandvet_button_row button_wrapper">
+							<p class="action_button_wrapper why_grandvet_button"><a class="activator" href="#">Читать</a></p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="row more_articles_button_row">
+				<div class="col s12">
+					<div class="more_articles_button">Больше статей</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section fp-auto-height-responsive" id="section5">
+
+		<img class="border__image" src="src/img/border.png">
+		<div class="social_networks">
+			<img class="socail_icon fb_icon" src="src/img/fb_icon.png">
+			<img class="socail_icon vk_icon" src="src/img/vk_icon.png">
+		</div>
+		<h2 class="main_title testimonials_main_title">Отзывы клиентов</h2>
+		<div class="swiper-container swiper-testimonials">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide swiper-slide_testimonials">
+					<div class="container testimonials_container">
+						<div class="row">
+							<div class="col s12">
+								<div class="testimonials_title">Богдан Воловцов</div>
+								<div class="testimonials_sub_title">Питомец: <span>питон</span></div>
+								<div class="testimonials_content">Невероятный сервис, оперативно среагтровали и смогли вылечить моего питона Гошу! Я думал в Украине мне не найти специалистов по экзотическим животным, но мне повезло что я обратился именно к вам!</div>
+								<div class="testimonials_date">28.09.18</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide swiper-slide_testimonials">
+					<div class="container testimonials_container">
+						<div class="row">
+							<div class="col s12">
+								<div class="testimonials_title">Антонина Федоровна</div>
+								<div class="testimonials_sub_title">Питомец: <span>хомяк Валентин</span></div>
+								<div class="testimonials_content">Мой пушистик приболел, я спохватилась слишком поздно и думала что потеряю его навсегда. А потом я решила не сдаваться и ночью поехала в клинику к вам и не ошиблась. У вас чудесная клиника с высококлассными специалистами, которые даже крохотному питомцу пердоставляют высококвалифи- цированную помощь. Валентин снова бегает и радуется жизни. Вам большой привет от Валентина и благодарность от меня!</div>
+								<div class="testimonials_date">28.09.18</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide swiper-slide_testimonials">
+					<div class="container testimonials_container">
+						<div class="row">
+							<div class="col s12">
+								<div class="testimonials_title">Богдан Воловцов</div>
+								<div class="testimonials_sub_title">Питомец: <span>питон</span></div>
+								<div class="testimonials_content">Невероятный сервис, оперативно среагтровали и смогли вылечить моего питона Гошу! Я думал в Украине мне не найти специалистов по экзотическим животным, но мне повезло что я обратился именно к вам!</div>
+								<div class="testimonials_date">28.09.18</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">Slide 4</div>
+				<div class="swiper-slide">Slide 5</div>
+				<div class="swiper-slide">Slide 6</div>
+				<div class="swiper-slide">Slide 7</div>
+				<div class="swiper-slide">Slide 8</div>
+				<div class="swiper-slide">Slide 9</div>
+				<div class="swiper-slide">Slide 10</div>
+
+
+			</div>
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination testimonials_pagination"></div>
+	</div>
+	<div class="section fp-auto-height-responsive" id="section6">
+
+		<img class="border__image" src="src/img/border.png">
+		<div class="social_networks">
+			<img class="socail_icon fb_icon" src="src/img/fb_icon.png">
+			<img class="socail_icon vk_icon" src="src/img/vk_icon.png">
+		</div>
+		<h2 class="main_title">Наши партнёры</h2>
+		<div class="container partners_logo_container">
+			<div class="row">
+				<div class="col s4 m4 partners_logo">
+					<img src="src/img/partners/kitekat.png">
+				</div>
+				<div class="col s4 m4 partners_logo">
+					<img src="src/img/partners/padigree.png">
+				</div>
+				<div class="col s4 m4 partners_logo">
+					<img src="src/img/partners/whiskas.png">
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="section fp-auto-height-responsive" id="section7">
+
+		<img class="border__image" src="src/img/border.png">
+		<div class="social_networks">
+			<img class="socail_icon fb_icon" src="src/img/fb_icon.png">
+			<img class="socail_icon vk_icon" src="src/img/vk_icon.png">
+		</div>
+		<h2 class="main_title">Свяжитесь с нами</h2>
+		<div class="container contact_form__main">
+			<div class="row">
+				<div class="col s6 m6 map_container">
+					<div id="map"></div>
+				</div>
+				<div class="col s6 m6 contact_form_wrapper">
+					<!--<div class="row contact_form_row"></div>-->
+					<form class="contact_form_form">
+						<div class="row contact_form_row">
+							<div class="input-field col s12 contact_form_input">
+								<input id="last_name" type="text" class="validate" required>
+								<label for="last_name">Имя</label>
+							</div>
+						</div>
+						<div class="row contact_form_row">
+							<div class="input-field col s12 contact_form_input">
+								<input id="phone" type="tel" class="validate" required>
+								<label for="phone">Номер телефона</label>
+							</div>
+						</div>
+						<div class="row contact_form_row">
+							<div class="input-field col s12 contact_form_input">
+								<input id="email" type="email" class="validate" required>
+								<label for="email">Email</label>
+							</div>
+						</div>
+						<div class="row contact_form_row">
+							<div class="input-field col s12 contact_form_input">
+								<textarea id="textarea1" class="materialize-textarea"></textarea>
+								<label for="textarea1">Сообщение</label>
+							</div>						
+						</div>
+						<div class="row contact_form_row contact_form_row_last_child">
+							<div class="col s12 m6">
+								<div class="attach_file_button contact_form_attach_button_container" onclick="document.getElementById('getFile').click()">ПРИКРЕПИТЬ ФАЙЛ</div>
+								<input type='file' id="getFile" style="display:none">
+							</div>
+							<div class="col s12 m6">
+								<div class="contact_form_send_button_container">
+									<button class="contact_form__button" type="submit">Отправить</button>
+								</div>
+							</div>
+						</div>
+					</form>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--FULL PAGE END -->
+</div>
+
+
+
+</body>
+
+<script type="text/javascript" src="src/vendor/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="src/vendor/jquery-ui.min.js"></script>
+<!--<script type="text/javascript" src="src/vendor/jquery.fullPage.js"></script>-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"></script>
+<script type="text/javascript" src="src/vendor/examples.js"></script>
+<script type="text/javascript" src="src/vendor/materialize.js"></script>
+<!--<script type="text/javascript" src="src/vendor/owl.carousel.js"></script>-->
+<script type="text/javascript" src="src/vendor/swiper.js"></script>
+<script type="text/javascript" src="src/vendor/velocity.min.js"></script>
+<script type="text/javascript" src="src/vendor/cards.js"></script>
+<script src="src/js/search2.js"></script>
+<script src="src/js/searchPanel.js"></script>
+<!--	Search scripts 	-->
+<!--
+<script src="src/vendor/tipuesearch/tipuesearch_set.js"></script>
+<script src="src/vendor/tipuesearch/tipuesearch_content.js"></script>
+<script src="src/vendor/tipuesearch/tipuesearch.js"></script>
+
+
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch();
+});
+</script>
+-->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#fullpage').fullpage({
+			anchors: ['firstPage', 'secondPage', '3rdPage', 'fourthPage','fifthPage', 'sixthPage', 'senventhPage','eighthPage'],
+			sectionsColor: ['', '#9CD0E8', '#6fbee5','#9CD0E8','#6FBEE5','#9CD0E8','#6FBEE5','#9CD0E8'],
+			scrollingSpeed: 300,
+			navigation: true,
+			slidesNavigation: true,
+			navigationPosition: 'left',
+			scrollBar: false,
+			controlArrows: false,
+			verticalCentered: false,
+
+				//navigationTooltips: ['First page', 'Second page', 'Third and last page']
+			});
+
+	//swiper-section0'
+	/*
+		  var titles = [];
+		    $('.swiper-section0 .swiper-slide').each(function(i) {
+		      titles.push($(this).data('title'));
+		      console.log(titles);
+		    });
+
+		var swiper = new Swiper('.swiper-section0', {
+			slidesPerView: 1,
+			spaceBetween: 0,
+			//loop: true,
+		      pagination: {
+		        el: '.section0_pagination',
+		        clickable: true,
+		        renderBullet: function (index, className) {
+		          return '<span class="tab__link ' + className + '">' + titles[index] + '</span>' ;
+
+		        },
+		      },
+			breakpoints: {
+				1200: {
+					slidesPerView: 1,
+					spaceBetween: 0,
+				},
+				1024: {
+					slidesPerView: 1,
+					spaceBetween: 0,
+				},
+				768: {
+					slidesPerView: 1,
+					spaceBetween: 0,
+				},
+				640: {
+					slidesPerView: 1,
+					spaceBetween: 0,
+				},
+				320: {
+					slidesPerView: 1,
+					spaceBetween: 0,
+				}
+			}
+		});
+		*/
+
+		var swiper = new Swiper('.swiper-container', {
+			slidesPerView: 4,
+			spaceBetween: 30,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+				renderBullet: function (index, className) {
+					return '<span class="' + className + '">' + (index + 1) + '</span>';
+				},
+			},
+			breakpoints: {
+				1200: {
+					slidesPerView: 3,
+					spaceBetween: 40,
+				},
+				1024: {
+					slidesPerView: 3,
+					spaceBetween: 40,
+				},
+				768: {
+					slidesPerView: 2,
+					spaceBetween: 30,
+				},
+				640: {
+					slidesPerView: 1,
+					spaceBetween: 20,
+				},
+				320: {
+					slidesPerView: 1,
+					spaceBetween: 10,
+				}
+			}
+		});
+		var swiper = new Swiper('.swiper-why_grandvet_container', {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+				renderBullet: function (index, className) {
+					return '<span class="' + className + '">' + (index + 1) + '</span>';
+				},
+			},
+			breakpoints: {
+				1200: {
+					slidesPerView: 3,
+					spaceBetween: 40,
+				},
+				1024: {
+					slidesPerView: 3,
+					spaceBetween: 40,
+				},
+				768: {
+					slidesPerView: 2,
+					spaceBetween: 30,
+				},
+				640: {
+					slidesPerView: 1,
+					spaceBetween: 20,
+				},
+				320: {
+					slidesPerView: 1,
+					spaceBetween: 10,
+				}
+			}
+		});
+		var swiper = new Swiper('.swiper-testimonials', {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			breakpoints: {
+				1024: {
+					slidesPerView: 3,
+					spaceBetween: 40,
+				},
+				768: {
+					slidesPerView: 1,
+					spaceBetween: 30,
+				},
+				640: {
+					slidesPerView: 1,
+					spaceBetween: 20,
+				},
+				320: {
+					slidesPerView: 1,
+					spaceBetween: 10,
+				}
+			}
+		});
+
+
+/*
+		$('.owl-carousel').owlCarousel({
+			loop:true,
+			margin:50,
+			responsiveClass:true,
+			dots: true,
+			dotsEach: true,
+			loop: true,
+			responsive:{
+				0:{
+					items:1,
+					nav:true
+				},
+				600:{
+					items:3,
+					nav:false
+				},
+				1000:{
+					items:4,
+					nav:false,
+					dots: true,
+					loop:true
+				}
+			}
+		})
+		*/
+	});
+
+	$(document).ready(function(){
+		$('.sidenav').sidenav();
+	});
+
+</script>
+
+<script>
+	function initMap() {
+		var uluru = {lat: 50.5086477, lng: 30.4439031};
+		var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 12,
+			center: uluru
+		});
+		var marker = new google.maps.Marker({
+			position: uluru,
+			map: map
+		});
+	}
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBXw6KxOkgWSlMJ9HCYCH7iZB_XiAg71E&callback=initMap">
+</script>
+<script>
+	
+
+	/*	let cardFontSide = document.getElementById('card-reveal'); 
+		let cardFontSide2 = document.getElementById('card-reveal2');
+		let cardFontSide3 = document.getElementById('card-reveal3');
+		let activator = document.getElementById('reveal-activator'); 
+		let activator2 = document.getElementById('reveal-activator2');
+		let activator3 = document.getElementById('reveal-activator3');
+		
+		
+
+		activator.addEventListener('click', function () {
+			cardFontSide.setAttribute("style", "display:block;transition: all 0.3s ease-in-out;transform:translateY(0%);");
+
+		});
+		activator2.addEventListener('click', function () {
+			cardFontSide2.setAttribute("style", "display:block;transition: all 0.3s ease-in-out;transform:translateY(0%);");
+
+		});
+		activator3.addEventListener('click', function () {
+			cardFontSide3.setAttribute("style", "display:block;transition: all 0.3s ease-in-out;transform:translateY(0%);");
+		
+		});
+
+		*/
+		/*
+		document.addEventListener('click', function(e) {
+		    e = e || window.event;
+		    var target = e.target || e.srcElement,
+		        text = target.textContent || text.innerText;
+		        console.log(target + " " + text);   
+		}, false);
+		*/
+
+	</script>
+	</html>

@@ -1,0 +1,32 @@
+.searchContainer {
+	cursor: pointer;
+}
+.search_li {
+	display: none;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	background: #F83;
+}
+.tipue_search_group {
+    position: relative;
+    height: 0;
+}
+input#tipue_search_input {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background: #FDA;
+    padding-left: 50px;
+}
+button#searchButton {
+	position: absolute;
+    right: 15%;
+    top: 7px;
+}
+.tipue_search_icon {
+    border: 2px solid;
+    padding: 4px;
+    cursor: pointer;
+}

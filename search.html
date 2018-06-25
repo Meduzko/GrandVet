@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="src/vendor/materialize.css" />
+	<style type="text/css">
+		input#tipue_search_input {
+			visibility: hidden;
+		}
+		a {
+    		text-decoration: none;
+		}
+		.tipue_search_content_url {
+		    font: 300 15px/1.7 'Open Sans', sans-serif;
+     		color: #333;
+     		padding: 15px 0px;
+		}
+		.tipue_search_image {
+    		text-align: left;
+		}
+		img.tipue_search_img.tipue_search_image_zoom {
+		    height: auto;
+		    width: 30%;
+		}
+		.tipue_search_content_text {
+		    font: 300 16px/1.6 'Open Sans', sans-serif;
+			color: #666; 
+			padding: 10px 0px;
+		}
+	</style>
+</head>
+<body>
+
+						<!--<form>
+						<div class="tipue_search_group">
+						
+						<button type="submit" class="tipue_search_button" onclick="location.href='search.html'"><div class="tipue_search_icon">&#9906;</div></button>
+						</div>
+					</form>-->
+
+	<input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required>
+	<div id="tipue_search_content"></div>
+
+	<!--<button id="actionButton">Button</button>-->
+</body>
+<script type="text/javascript" src="src/vendor/jquery-3.3.1.min.js"></script>
+
+
+
+<script src="src/vendor/tipuesearch/tipuesearch_set.js"></script>
+<script src="src/vendor/tipuesearch/tipuesearch_content.js"></script>
+<script src="src/vendor/tipuesearch/tipuesearch.js"></script>
+<script src="src/js/search2.js"></script>
+
+
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch();
+});
+</script>
+
+	<style type="text/css" src="src/vendor/tipuesearch.css"></style>
+</html>
